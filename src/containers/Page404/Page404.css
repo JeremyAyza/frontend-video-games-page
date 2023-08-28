@@ -1,0 +1,14 @@
+
+  .text{
+    /* position:absolute; */
+    /* top:10; */
+    padding-top: 40px;
+    color:#fff;
+    text-align:center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+
+  }
