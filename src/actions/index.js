@@ -13,18 +13,6 @@ export function getVideogames() {
   };
 }
 
-export function searchVideogames(name) {
-  return (dispatch) =>
-    fetch(`http://localhost:3001/videogames?name=${name}`)
-      .then((resp) => resp.json())
-      .then((json) => {
-        dispatch({
-          type: "SEARCH_VIDEOGAMES",
-          payload: json,
-        });
-      });
-}
-
 export function getVideogameById(id) {
   return (dispatch) =>
     fetch(URL_API + `/games/${id}?key=${API_KEY}`)
@@ -37,7 +25,6 @@ export function getVideogameById(id) {
         });
       });
 }
-
 
 
 
