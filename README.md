@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center">🎮 VideoGame Explorer</h1>
+<p align="center">A modern React-based web app that lists and explores video games using the RAWG Video Games Database API.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://reactjs.org"><img src="https://img.shields.io/badge/React-18-blue?logo=react" /></a>
+  <a href="https://redux.js.org"><img src="https://img.shields.io/badge/Redux-State-purple?logo=redux" /></a>
+  <a href="https://reactrouter.com"><img src="https://img.shields.io/badge/React_Router-5.2-red?logo=react-router" /></a>
+  <a href="https://axios-http.com/"><img src="https://img.shields.io/badge/Axios-HTTP-yellow?logo=axios" /></a>
+  <a href="https://rawg.io/apidocs"><img src="https://img.shields.io/badge/RAWG_API-Game_Data-orange?logo=rawg" /></a>
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#-installation">⚙️ Installation</a> •
+  <a href="#-features">✨ Features</a> •
+  <a href="#-tech-stack">📦 Tech Stack</a>
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Agrega aquí una imagen o gif si tienes -->
+> Demo en vivo: *(opcional si lo publicas en Netlify/Vercel)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔍 Búsqueda de videojuegos por nombre
+- 🧩 Listado de videojuegos con paginación
+- 📅 Visualización de información clave: título, fecha de lanzamiento, plataformas, imagen y rating
+- 🧠 Consumo de la API pública [RAWG](https://api.rawg.io/api)
+- 🗂️ Filtros y ordenamiento por género, fecha y rating
+- 🧰 Manejo global del estado con Redux + Redux Thunk
+- 💡 Bootstrap y React Bootstrap para UI rápida y responsiva
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Tecnología         | Descripción                            |
+|--------------------|----------------------------------------|
+| **React**          | Librería para crear interfaces de usuario |
+| **Redux**          | Manejo del estado global de la app     |
+| **Redux Thunk**    | Middleware para acciones asincrónicas  |
+| **React Router**   | Navegación SPA                         |
+| **Axios**          | Cliente HTTP para llamadas a la API    |
+| **Bootstrap**      | Framework de estilos base              |
+| **React Bootstrap**| Componentes de Bootstrap en React      |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🎯 Learnings & Highlights
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [x] Integración con una API pública externa (RAWG)
+- [x] Implementación de paginación dinámica
+- [x] Uso de middleware `redux-thunk` para acciones async
+- [x] Modularización de componentes funcionales
+- [x] Enrutamiento SPA con React Router v5.2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
