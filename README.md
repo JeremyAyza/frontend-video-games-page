@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-  <a href="#-installation">⚙️ Installation</a> •
   <a href="#-features">✨ Features</a> •
   <a href="#-tech-stack">📦 Tech Stack</a>
 </p>
@@ -29,7 +28,7 @@
 - 🔍 Búsqueda de videojuegos por nombre
 - 🧩 Listado de videojuegos con paginación
 - 📅 Visualización de información clave: título, fecha de lanzamiento, plataformas, imagen y rating
-- 🧠 Consumo de la API pública [RAWG](https://api.rawg.io/api)
+- 🧠 Consumo de la API gratuita [RAWG](https://api.rawg.io/api)
 - 🗂️ Filtros y ordenamiento por género, fecha y rating
 - 🧰 Manejo global del estado con Redux + Redux Thunk
 - 💡 Bootstrap y React Bootstrap para UI rápida y responsiva
